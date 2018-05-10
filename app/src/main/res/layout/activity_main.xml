@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:id="@+id/home_login_rl1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true" >
+
+        <TextView
+            android:id="@+id/home_login_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_alignParentTop="true"
+            android:text="11111111111111"
+            android:layout_marginTop="0dp"
+            android:layout_centerHorizontal="true"
+            />
+        <TextView
+            android:id="@+id/home_login_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_below="@+id/home_login_tv1"
+            android:text="222222222222222"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/home_login_rl2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true" >
+
+        <TextView
+            android:id="@+id/home_login_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_alignParentTop="true"
+            android:text="11111111111111"
+            android:layout_marginTop="0dp"
+            android:layout_centerHorizontal="true"
+            />
+        <TextView
+            android:id="@+id/home_login_tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_below="@+id/home_login_tv3"
+            android:text="222222222222222"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
